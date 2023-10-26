@@ -1,11 +1,20 @@
 
-import Navigation from "./link";
+import Link from "next/link";
+
 
 function page() {
   return (
     <div>
       <h1>Welcome to the Home Page</h1>
-      <Navigation />
+      <Link href="./Signup">
+        Go to SignUp
+      </Link>
+      <br />
+      <br />
+
+      <Link href="./Login">
+        Go to Login
+      </Link>
     </div>
   );
 }

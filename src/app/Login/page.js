@@ -18,6 +18,8 @@ function Login() {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
+      <br/>
+      <br/>
       <input
         type="password"
         placeholder="Password"
